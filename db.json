@@ -1,46 +1,78 @@
 {
-  "artists": [
-    {
-      "id": 1,
-      "name": "Foo Fighters",
-      "genre": "Rock",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15"
-    },
-    {
-      "id": 2,
-      "name": "Michael Jackson",
-      "genre": "Pop",
-      "urlImg": "https://i.scdn.co/image/ab676161000051740e08ea2c4d6789fbf5cbe0aa"
-    },
-    {
-      "id": 3,
-      "name": "Emicida",
-      "genre": "Hip Hop",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174908b4b4bc90e1518b68b4068"
-    },
-    {
-      "id": 4,
-      "name": "Chitãozinho e Xororó",
-      "genre": "Sertanejo",
-      "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4"
-    },
-    {
-      "id": 5,
-      "name": "Mc Coringa",
-      "genre": "Funk",
-      "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56"
-    },
-    {
-      "id": 6,
-      "name": "Arlindo Cruz",
-      "genre": "Samba",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839"
-    },
-    {
-      "id": 7,
-      "name": "Caetano Veloso",
-      "genre": "MPB",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757"
-    }
-  ]
+    "categorias": [
+        {
+            "id": "bienestar",
+            "nombre": "bienestar",
+            "subcategorias": [
+                "higiene",
+                "salud"
+            ]
+        },
+        {
+            "id": "comportamiento",
+            "nombre": "comportamiento",
+            "subcategorias": [
+                "entrenamiento",
+                "educacion"
+            ]
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Baño en perros",
+            "metadescription": "Utiliza las herramientas ideales para bañar a tu perro",
+            "body": "La mayoría de los perros prefieren saltarse la hora del baño, pero el baño juega un papel importante en la salud del pelaje y la piel de su perro, ya que ayuda a mantenerla limpia y libre de suciedad y parásitos. Tener los productos adecuados puede ayudarlo a sentirse más cómodo.",
+            "categoria": "bienestar",
+            "subcategoria": "higiene"
+        },
+        {
+            "id": 2,
+            "title": "Tu cachorro merece un tapete higiénico",
+            "metadescription": "El baño que tu cachorro merece",
+            "body": "Los tapetes higiénicos son una innovación en el mercado de las mascotas, perfectas para que tu perro haga sus necesidades con comodidad y sin ensuciar la casa. Son productos desechables o lavables que garantizan la comodidad de tu mascota.",
+            "categoria": "bienestar",
+            "subcategoria": "higiene"
+        },
+        {
+            "id": 3,
+            "title": "¿Época de pulgas?",
+            "metadescription": "Es necesario evitar que tus mascotas contraigan estos parásitos",
+            "body": "No es la mordedura, sino la reacción alérgica a ella lo que hace que tu perro sienta comezón. Algunas mascotas son hipersensibles a las pulgas y pueden tener una reacción grave con solo un mordisco. Sin embargo, todas las mascotas experimentarán molestias por las picaduras de pulgas. Entonces, tan pronto como veas rasguños repetidos, sospeche de las pulgas.",
+            "categoria": "bienestar",
+            "subcategoria": "salud"
+        },
+        {
+            "id": 4,
+            "title": "¿Tu mascota está estresada?",
+            "metadescription": "El cambio de rutina puede ser el mayor factor.",
+            "body": "Talvez eres de las personas que le dan atención adicional, pero cuando tienes que ir a la oficina o a realizar alguna actividad lo dejas en tu casa, causandole esa falta de atención que le brindas constantemente, lo ideal es mimarlos en la medida cierta. Debido a la pandemia hemos estado más presentes en nuestro hogar lo cuál puede acostumbrar a tu mascota a estar más tiempo contigo.",
+            "categoria": "comportamiento",
+            "subcategoria": "educacion"
+        },
+        {
+            "id": 5,
+            "title": "¿Cómo entrenar a tu perro para que no tenga miedo?",
+            "metadescription": "La socialización es un grande factor en este aprendizaje.",
+            "body": "Solo se puede enseñar a un perro a dejar de tener miedo aumentando su confianza en sí mismo. Esto significa cambiar la forma en que reacciona su mente en determinadas situaciones y convertir las asociaciones negativas en positivas. Hacer esto requiere mucha paciencia y una serie de exposiciones controladas al evento u objeto temido, pero lo suficientemente lejos como para que el perro no se sienta ansioso.",
+            "categoria": "comportamiento",
+            "subcategoria": "educacion"
+        },
+        {
+            "id": 6,
+            "title": "¿Por qué los gatos ronroñean?",
+            "metadescription": "El ronroneo es una señal de aviso.",
+            "body": "Una cosa que los científicos saben con certeza es que la parte del cerebro del gato que controla las vocalizaciones está muy conectada con la parte del cerebro que controla las emociones del gato. Entonces, lo que el gato está “diciendo” es absolutamente un reflejo de como se siente.",
+            "categoria": "comportamiento",
+            "subcategoria": "entrenamiento"
+        },
+        {
+            "id": 7,
+            "title": "¿Cómo entrenar a tu gato?",
+            "metadescription": "Si, tu puedes entrenar a tu gato y es mucho más fácil de lo que pensabas.",
+            "body": "Puedes utilizar herramientas de entrenamiento para una amplia variedad de animales, un 'clicker' solo costará unos pocos dólares y te ayudará a dar un refuerzo positivo cuando aprendas a entrenar a un gato. (También puedes usar un bolígrafo normal con un botón de click; lo importante es tener un ruido distintivo). La mayoría de los entrenamientos para gatos implican darle a tu gato una golosina que le guste después de un click para marcar el comportamiento deseado.",
+            "categoria": "comportamiento",
+            "subcategoria": "entrenamiento"
+        }
+    ]
 }
